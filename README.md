@@ -1,10 +1,12 @@
-Tutor plugin for [Open edX Webhook Receiver](https://github.com/hastexo/webhook-receiver)
+Tutor plugin for [Open edX Webhook Receiver](https://github.com/cleura/webhook-receiver)
 ===================================
 
 This is an **experimental** plugin for
 [Tutor](https://docs.tutor.overhang.io) that deploys the
-[Open edX Webhook Receiver](https://github.com/hastexo/webhook-receiver) 
+[Open edX Webhook Receiver](https://github.com/cleura/webhook-receiver) 
 application alongside Open edX.
+
+This repository was previously hosted under the `hastexo` GitHub organization, and moved to `cleura` in December 2025 as part of a routine repository consolidation.
 
 Version compatibility matrix
 ----------------------------
@@ -35,7 +37,7 @@ appropriate one:
 Installation
 ------------
 
-    pip install git+https://github.com/hastexo/tutor-contrib-webhook-receiver@v3.3.0
+    pip install git+https://github.com/cleura/tutor-contrib-webhook-receiver@v3.3.0
 
 Then, to enable this plugin, run:
 
@@ -56,7 +58,7 @@ Configuration
 * `WEBHOOKRECEIVER_DB_MIGRATION_OPTIONS` (default `{}`)
 * `WEBHOOKRECEIVER_DJANGO_LOG_LEVEL` (default `"DEBUG"`)
 * `WEBHOOKRECEIVER_EDX_OAUTH2_KEY` (default `"webhook_receiver"`)
-* `WEBHOOKRECEIVER_REPOSITORY` (default `"https://github.com/hastexo/webhook-receiver.git"`)
+* `WEBHOOKRECEIVER_REPOSITORY` (default `"https://github.com/cleura/webhook-receiver.git"`)
 * `WEBHOOKRECEIVER_REVISION` (default `"main"`)
 * `WEBHOOKRECEIVER_SHOPIFY_SHOP_DOMAIN` (default `""`)
 * `WEBHOOKRECEIVER_SHOPIFY_API_KEY` (default `""`)

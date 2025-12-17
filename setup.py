@@ -13,11 +13,11 @@ def load_readme():
 setup(
     name="tutor-contrib-webhook-receiver",
     use_scm_version=True,
-    url="https://github.com/hastexo/tutor-contrib-webhook-receiver",
+    url="https://github.com/cleura/tutor-contrib-webhook-receiver",
     project_urls={
-        "Code": "https://github.com/hastexo/tutor-contrib-webhook-receiver",
+        "Code": "https://github.com/cleura/tutor-contrib-webhook-receiver",
         "Issue tracker":
-            "https://github.com/hastexo/tutor-contrib-webhook-receiver/issues",
+            "https://github.com/cleura/tutor-contrib-webhook-receiver/issues",
     },
     license="AGPLv3",
     author="hastexo",
