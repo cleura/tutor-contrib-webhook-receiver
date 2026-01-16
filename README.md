@@ -37,7 +37,7 @@ appropriate one:
 Installation
 ------------
 
-    pip install git+https://github.com/cleura/tutor-contrib-webhook-receiver@v3.3.0
+    pip install git+https://github.com/cleura/tutor-contrib-webhook-receiver@v3.3.1
 
 Then, to enable this plugin, run:
 
